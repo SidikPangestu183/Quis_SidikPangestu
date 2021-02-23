@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtNirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nirm" />
+
+    <EditText
+        android:id="@+id/input_nirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtnama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Mahasiswa" />
+
+    <EditText
+        android:id="@+id/input_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtprodi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Program Studi" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <RadioButton
+        android:id="@+id/rd_si"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SI" />
+
+    <RadioButton
+        android:id="@+id/rd_sk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SK" />
+
+        <RadioButton
+            android:id="@+id/rd_mi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MI" />
+
+    <RadioButton
+        android:id="@+id/rd_tk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TK" />
+
+    <Button
+        android:id="@+id/btn_Ok"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:text="OK" 
+     	android:onClick="KlikHasil" />
+
+    <TextView
+        android:id="@+id/tvhasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil Input Anda Adalah" />
+
+</LinearLayout>
